@@ -1,0 +1,51 @@
+<html>
+<head>
+ <title>student feedback</title>
+</head>
+<body>
+<form>
+  <div>
+    <lable for=" first name">frist name</lable>
+    <input type=" frist name" name="name" id="name" requried>
+  </div>
+   <div>
+    <lable for="last name">last name</lable>
+    <input type="last name" name="name" id="name" required>
+  </div>
+   <div>
+    <lable for="mail">mail</lable>
+    <input type="mail" name="mail" id="mail" required>
+  </div>
+   <div>
+    <lable for="password">password</lable>
+    <input type="password" name="password" required>
+  </div>
+   <div>
+    <lable for="age"> age</lable>
+    <input type="number" name="age" id="age"  min="1" max="200" setp="5">
+  </div>
+   <div>
+    <lable for="date">birthday</lable>
+    <input type="date" name="date" id="date" min="10-06-2020" >
+  </div>
+   GENDER
+   <div>
+    <lable for="male"> mail</lable>
+    <input type="radio" name="gender" id="male" >
+  </div>
+   <div>
+    <lable for="female">female</lable>
+    <input type="radio" name="gender" id="female" >
+  </div>
+   <div>
+    <lable for="feedback">feedback</lable>
+    <textarea id="feedback" name="feedback"></textarea>
+  </div>
+    <button type="reset">reset</button>
+    <button type="submit">submit</button>
+</form>
+</body>
+</html>
+
+
+
